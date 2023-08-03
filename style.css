@@ -4,3 +4,9 @@
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(135deg, #153577, #4e085f);
+	padding: 10px;
+}
