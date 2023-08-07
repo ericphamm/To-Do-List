@@ -17,11 +17,9 @@ function AddTask() {
 }
 listContainer.addEventListener("click", function(e){
 	if(e.target.tagName === "LI"){
-		console.log("here")
 		e.target.classList.toggle("checked");
 	}
 	else if(e.target.tagName === "SPAN"){
-		console.log("halo")
 		e.target.parentElement.remove();
 	}
 }, false);
