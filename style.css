@@ -44,6 +44,7 @@ input{
 	outline: none;
 	background: transparent;
 	padding: 10px;
+	font-size: 17px;
 }
 button{
 	border: none;
@@ -101,4 +102,7 @@ ul li span:hover{
 	color: #868686;
 	background: #edeef0;
 	text-align: center;
+}
+.not-italic{
+	font-style: normal;
 }
