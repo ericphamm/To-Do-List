@@ -11,7 +11,6 @@ function AddTask() {
 		listContainer.appendChild(li);
 		let span = document.createElement("span");
 		span.innerHTML = "\u00D7";
-		span.classList.add("not-italic");
 		li.appendChild(span);
 	}
 	inputBox.value = "";
