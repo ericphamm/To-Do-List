@@ -63,6 +63,7 @@ ul li{
 	user-select: none;
 	cursor: pointer;
 	position: relative;
+	border-bottom: 1px solid #b81c1c;
 }
 ul li::before{
 	content: '';
