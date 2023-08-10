@@ -58,12 +58,12 @@ button{
 }
 ul li{
 	list-style: none;
-	font-size: 17px;
-	padding: 15px 8px 12px 50px;
+	font-size: 16px;
+	padding: 15px 8px 15px 50px;
 	user-select: none;
 	cursor: pointer;
 	position: relative;
-	border-bottom: 1px solid #b1cef8;
+	border-bottom: 1px solid #e5f0ff;
 }
 ul li::before{
 	content: '';
