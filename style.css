@@ -106,7 +106,6 @@ ul li span:hover {
     font-size: 27px; /* Increase the font size */
     color: #868686;
     background: #edeef0;
-	padding-bottom: 2px;
 }
 
 ul li.checked span{
