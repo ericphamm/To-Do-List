@@ -12,6 +12,9 @@ function AddTask() {
 		let span = document.createElement("span");
 		span.innerHTML = "\u00D7";
 		li.appendChild(span);
+		let span2 = document.createElement("span");
+		span2.innerHTML = "\u2713";
+		li.appendChild(span2);
 	}
 	inputBox.value = "";
 }
