@@ -14,6 +14,7 @@ function AddTask() {
 		li.appendChild(span);
 		let span2 = document.createElement("span");
 		span2.innerHTML = "\u2713";
+		span2.classList.add("edit-button")
 		li.appendChild(span2);
 	}
 	inputBox.value = "";
