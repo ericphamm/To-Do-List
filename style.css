@@ -68,8 +68,8 @@ ul li{
 ul li::before{
 	content: '';
 	position: absolute;
-	height: 28px;
-	width: 28px;
+	height: 24px;
+	width: 24px;
 	border-radius: 50%;
 	background-image: url(images/unchecked.png);
 	background-size: cover;
