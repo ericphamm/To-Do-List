@@ -16,10 +16,10 @@
 	background: #f9fbfe;
 	padding: 50px 30px 70px;
 	margin: 100px auto 20px;
-	border-radius: 50px;
+	border-radius: 60px;
 }
 .todo-app h2{
-	color: #002765;
+	color: #0b235f;
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
@@ -32,11 +32,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: #172e5e;
-	border-radius: 30px;
+	background: #eaf0ff;
 	padding-left: 20px;
 	margin-bottom: 25px;
 	font-size: 18px;
+	border-radius: 100px;
 }
 input{
 	flex: 1;
@@ -45,16 +45,18 @@ input{
 	background: transparent;
 	padding: 10px;
 	font-size: 17px;
+	height: 60px;
 }
 button{
 	border: none;
 	outline: none;
-	background: #ff5945;
-	padding: 16px 50px;
+	background: #1c74ff;
+	height: 60px;
+	width: 60px;
 	cursor: pointer;
 	color: #fff;
 	font-size: 16px;
-	border-radius: 40px;
+	border-radius: 50%;
 }
 ul li{
 	list-style: none;
@@ -92,7 +94,7 @@ ul li span {
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #555;
+    color: #cfddfc;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
@@ -105,8 +107,8 @@ ul li span {
 /* Hover effect for the delete button */
 ul li span:hover {
     font-size: 27px; /* Increase the font size */
-    color: #868686;
-    background: #edeef0;
+    color: #2495f0;
+    background: #e9efff;
 }
 
 ul li.checked span{
