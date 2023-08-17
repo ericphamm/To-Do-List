@@ -19,6 +19,7 @@ function AddTask() {
 listContainer.addEventListener("click", function(e){
 	if(e.target.tagName === "LI"){
 		e.target.classList.toggle("checked");
+		saveList();
 	}
 	else if(e.target.tagName === "SPAN"){
 		e.target.parentElement.remove();
@@ -29,3 +30,7 @@ listContainer.addEventListener("click", function(e){
 function saveList(){
 	localStorage.setItem("data", listContainer.innerHTML);
 }
+function showList(){
+	listContainer.innerHTML = localStorage.getItem("data");
+}
+showList();
