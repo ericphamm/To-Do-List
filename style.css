@@ -22,7 +22,6 @@
 	color: #1f3161;
 	display: flex;
 	align-items: center;
-	margin-bottom: 30px;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 0.05em;
@@ -121,4 +120,14 @@ ul li span:hover {
 }
 ul li.checked span{
 	font-style: normal;
+}
+.title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-bar img {
+    width: 40px;
+    height: 40px;
 }

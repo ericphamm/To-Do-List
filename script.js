@@ -1,5 +1,6 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const resetImage = document.getElementById("reset");
 
 function AddTask() {
 	if(inputBox.value === ''){
@@ -34,3 +35,10 @@ function showList(){
 	listContainer.innerHTML = localStorage.getItem("data");
 }
 showList();
+
+resetImage.addEventListener("click", clearList)
+
+function clearList(){
+	listContainer.innerHTML = "";
+	localStorage.clear();
+}
