@@ -25,5 +25,5 @@ listContainer.addEventListener("click", function(e){
 }, false);
 
 function saveList(){
-	
+	localStorage.setItem("data", listContainer.innerHTML);
 }
