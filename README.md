@@ -27,4 +27,5 @@
 ## License
 
 MIT License
-![To-Do%20List](https://github.com/ericphamm/To-Do-List/assets/119808652/3801d059-2e2c-441a-a645-c7d99818dfb9)
+
+<img width="1134" alt="To-Do List" src="https://github.com/ericphamm/To-Do-List/assets/119808652/672adf37-bbb3-44a4-a007-9a727e188345">
