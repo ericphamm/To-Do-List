@@ -1,26 +1,29 @@
 # To-Do List App
 
-A simple web app to manage your daily tasks.
+*A simple web app to manage your daily tasks.*
 
-Features
+## Features
 
-Add, mark, and remove tasks easily.
-Reset tasks with a single click.
+- Add, mark, and remove tasks easily.
+- Reset tasks with a single click.
 
-Technologies
+## Technologies
 
-HTML, CSS, JavaScript
-Google Fonts for typography
-Local Storage for data persistence
+- HTML, CSS, JavaScript
+- Google Fonts for typography
+- Local Storage for data persistence
 
-Usage
+## Usage
 
-Enter tasks and click "+" to add.
-Click tasks to mark as done.
-Hover over reset icon and click to clear.
-Getting Started
+1. Enter tasks and click "+" to add.
+2. Click tasks to mark as done.
+3. Hover over reset icon and click to clear.
 
+## Getting Started
 
-License
+1. Clone the repo: `git clone https://github.com/your-username/todo-list-app.git`
+2. Open `index.html` in a browser.
+
+## License
 
 MIT License
