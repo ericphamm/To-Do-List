@@ -22,7 +22,7 @@
 	color: #1f3161;
 	display: flex;
 	align-items: center;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 	letter-spacing: 0.05em;
 
@@ -67,6 +67,10 @@ button{
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+	transition: font-size 0.1s;
+}
+button:hover{
+	font-size: 45px;
 }
 ul li{
 	list-style: none;
@@ -131,6 +135,10 @@ ul li.checked span{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
+}
+#reset {
+	cursor: pointer;
+	transition: transform 0.1s, filter 0.2s;
 }
 #reset:hover {
 	transform: scale(1.1);
