@@ -28,4 +28,4 @@
 
 MIT License
 
-<img width="1134" alt="To-Do List" src="https://github.com/ericphamm/To-Do-List/assets/119808652/672adf37-bbb3-44a4-a007-9a727e188345">
+<img width="1134" alt="To-Do List" src="https://github.com/ericphamm/To-Do-List/assets/119808652/fe3fb3f5-dd0b-46a6-97c6-fcbfc17c9cdc">
