@@ -28,8 +28,4 @@
 1. Clone the repo: `git clone https://github.com/your-username/todo-list-app.git`
 2. Open `index.html` in a browser.
 
-## License
-
-MIT License
-
 <img width="1134" alt="To-Do List" src="https://github.com/ericphamm/To-Do-List/assets/119808652/fe3fb3f5-dd0b-46a6-97c6-fcbfc17c9cdc">
