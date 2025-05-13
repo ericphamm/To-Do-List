@@ -2,6 +2,10 @@
 
 *A simple web app to manage your daily tasks.*
 
+## Live Demo  
+👉 [Try it here](https://ericphamm.github.io/To-Do-List/)
+
+
 ## Features
 
 - Add, mark, and remove tasks easily.
