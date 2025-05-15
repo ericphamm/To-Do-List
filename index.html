@@ -1,73 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modern Todo App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="with=device-with, initial-scale=1">
+	<title>To-Do List App Javascript</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="todo-app">
-            <div class="title-bar">
-                <h2>Task Manager</h2>
-                <button onclick="clearList()" class="filter-btn">
-                    <i class="fas fa-sync-alt"></i>
-                </button>
-            </div>
-
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-number" id="total-tasks">0</div>
-                    <div class="stat-label">Total</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="completed-tasks">0</div>
-                    <div class="stat-label">Completed</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="pending-tasks">0</div>
-                    <div class="stat-label">Pending</div>
-                </div>
-            </div>
-
-            <input type="text" class="search-box" id="search-box" placeholder="Search tasks...">
-
-            <div class="filters">
-                <button class="filter-btn active" onclick="filterTasks('all')">All</button>
-                <button class="filter-btn" onclick="filterTasks('active')">Active</button>
-                <button class="filter-btn" onclick="filterTasks('completed')">Completed</button>
-                <select onchange="sortTasks(this.value)">
-                    <option value="date">Sort by Date</option>
-                    <option value="priority">Sort by Priority</option>
-                </select>
-            </div>
-
-            <div class="row">
-                <div class="task-input-group">
-                    <input type="text" id="input-box" placeholder="Add your task">
-                    <input type="date" id="due-date">
-                    <select id="priority">
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
-                    </select>
-                    <select id="category">
-                        <option value="personal">Personal</option>
-                        <option value="work">Work</option>
-                        <option value="shopping">Shopping</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <button onclick="addTask()">Add Task</button>
-            </div>
-
-            <ul id="list-container"></ul>
-        </div>
-    </div>
-    <script src="script.js"></script>
+	<div class="container">
+		<div class="todo-app">
+			<div class="title-bar">
+				<h2>My To-Do List</h2>
+				<img src="images/circular-arows.png" alt="new" id="reset">
+			</div>
+			<h3>TODAY'S TASKS</h3>
+			<div class="row">
+				<input type="text" id="input-box" placeholder="Add your task">
+				<button onclick="AddTask()">&#43;</button>
+			</div>
+			<ul id="list-container">
+			<!-- <li class="checked">Task1</li>
+			<li>Task2</li>
+			<li>Task3</li>
+			</ul> -->
+		</div>
+	</div>
+<script src="script.js"></script>
 </body>
 </html>
