@@ -15,7 +15,7 @@ A simple interactive web app to manage your daily tasks. Built with vanilla Java
 - GitHub Pages (for deployment)
 
 ## 🔗 Live Demo
-[View live app here](https://ericphamm.github.io/To-Do-List/)
+[View live app here](https://ericphamm.github.io/to-do-list/)
 
 ## 📁 Project Structure
 ```
